@@ -409,12 +409,16 @@ color: var(--white-color);
     justify-content: flex-end; 
     margin-bottom: 10px;  
 }
+.btn{
+    
+}
 .btn:hover{
     background-color:rgba(0,0,0,0.1) ;
 }
 .btn.btn--primary{
     background-color: var(--primary-color);
     color: var(--white-color);
+    align-items: center;
 }
 .control-back{
     margin-right: 16px;
@@ -426,7 +430,10 @@ color: var(--white-color);
     text-align: center;
     padding: 10px;
     width:100%;
-   
+}
+.btn{
+    padding: 0;
+    
 }
 .btn--with-icon{
     border: none;
@@ -989,6 +996,7 @@ color: var(--white-color);
     font-size: 1.4rem;
     margin: 0 6px;
     min-width: 90px;
+    align-items: center;
 }
 .btn.btn-filter.btn--primary:hover{
     background-color: var(--second-color);

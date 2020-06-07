@@ -83,7 +83,7 @@ html{
     left: 0;
     bottom: 0;
     top:0;
-    display: flex;
+    display: none;
     animation: fadein linear 0.1s; 
 }
 .modal__overlay{
